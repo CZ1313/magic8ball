@@ -4,26 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       <title>Magic8Ball</title>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+        
+    <script src="js/bootstrap.bundle.min.js"></script>
+    
+    <link rel="stylesheet" href="style.css">
+       
+    <title>Magic8Ball</title>
+
 </head>
 <body>
     
     
 <!--Empty 8-Ball-->
+    <div class = "center">
+        <label>
+            <!--Label for input field-->
+            <input id="queston" type="text" placeholder="Ask me anything!"></label>
+            <button id="myButton" type="button" onClick="eightBallAnswers">Ask!</button>
+    </div>
 
     <img id ="mainImage" width =600px height = 600px src="img/empty.png"  alt="Magic 8 Ball" >
 
 
-<!--Input field for user to ask question-->
-<form>
-    <label>
-        <!--Label for input field-->
-        <input id="queston" type="text" placeholder="Ask me anything!"></label>
-        
-        <!--Submit button-->
-        <button id="myButton" type="button" onClick="eightBallAnswers">Ask!</button>
-    </label>
-</form>
+
     
 
 
