@@ -4,16 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/script.js">
-    <title>Magic8Ball</title>
+       <title>Magic8Ball</title>
 </head>
 <body>
     
     
 <!--Empty 8-Ball-->
-<div id ="answers" >
-    <img  src="img/empty.png" width="305" height="312" alt="Magic 8 Ball">
-</div>
+
+    <img id ="mainImage" width =600px height = 600px src="img/empty.png"  alt="Magic 8 Ball" >
+
 
 <!--Input field for user to ask question-->
 <form>
@@ -22,7 +21,7 @@
         <input id="queston" type="text" placeholder="Ask me anything!"></label>
         
         <!--Submit button-->
-        <button id="myButton" type="submit" onClick="eightBallAnswers">Ask!</button>
+        <button id="myButton" type="button" onClick="eightBallAnswers">Ask!</button>
     </label>
 </form>
     
