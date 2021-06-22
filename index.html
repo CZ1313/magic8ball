@@ -24,20 +24,18 @@
     
     
 <!--Empty 8-Ball-->
-    <div class = "center">
-        <label>
+    <div id ="content">
             <!--Label for input field-->
-            <input id="queston" type="text" placeholder="Ask me anything!"></label>
-            <button id="myButton" type="button" onClick="eightBallAnswers">Ask!</button>
+            <input id="queston" type="text" placeholder="Ask me anything!" cols="30" rows="4"></input>
+            
+            <button>Ask!</button> 
     </div>
 
-    <img id ="mainImage" width =600px height = 600px src="img/empty.png"  alt="Magic 8 Ball" >
+    <div id="eightball">
+        <img id ="answers" alt="Magic 8 Ball" width =600px height = 600px src="img/empty.png">
 
-
-
-    
-
-
-<script src="script.js"></script>
+        
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
