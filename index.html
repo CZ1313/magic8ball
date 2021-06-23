@@ -20,22 +20,48 @@
     <title>Magic8Ball</title>
 
 </head>
-<body>
-    
-    
-<!--Empty 8-Ball-->
-    <div id ="content">
-            <!--Label for input field-->
-            <input id="queston" type="text" placeholder="Ask me anything!" cols="30" rows="4"></input>
-            
-            <button>Ask!</button> 
+   
+    <body>
+      
+      <!-- Heading, content, place for user to ask question with a button-->
+      
+      <div id ="heading"class="container-fluid" > 
+        <h1 id = "Heading"> Ask the Magic Eight Ball</h1>
     </div>
 
-    <div id="eightball">
-        <img id ="answers" alt="Magic 8 Ball" width =600px height = 600px src="img/empty.png">
-
+      
+      <div id="content" class="container-fluid">
+          
         
-    </div>
-    <script src="script.js"></script>
+      <textarea id="user_question" cols="30" rows ="10" ></textarea>
+      <button id="button"> Ask! </button>
+      <p id ="text_question" class ="text-center"> Enter your question up above!</p>
+      <p id = "text_question2"> And see your answer below!</p>
+      
+     
+      </div>
+
+
+      
+      <div id ="ballImage"class="d-flex justify-content-center" >
+        
+        <p id = "answer">Ask again later.</p>
+        
+        
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      <script src="script.js"></script>
+    </body>
+    </html>
+
+
+
+    
 </body>
 </html>
