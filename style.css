@@ -14,8 +14,7 @@ body {
     border-radius: 100%;
     background: rgb(247,246,255);
     background: radial-gradient(circle, rgba(247,246,255,1) 10%, rgba(188,172,237,1) 32%, rgba(13,6,102,1) 57%);
-    box-shadow: 1px 5px 60px 30px #534da4;
-    
+    box-shadow: 1px 5px 60px 30px #534da4;  
 }
 
 
@@ -31,9 +30,8 @@ body {
     font-size: 20px;
     display:inline-block;
     position:relative;
- 
     
-  }
+}
   
   #button {
     width: 50px;
@@ -42,7 +40,7 @@ body {
     margin-top: 200px;
     background-color: black;
     color:rgb(182, 85, 93);
-  }
+ }
 
 
 #text_question {
@@ -51,40 +49,31 @@ body {
     font-family:cursive;
     margin-left: 130px;
     padding-top:30px;
-    
-    
 }
 
 #text_question2 {
     color:white;
     font-size: 20px;
     font-family:cursive;
-    margin-left: 130px;
-    
-    
+    margin-left: 130px;    
 }
 
-  
-    
-  
-  
-  
-  
-  #ballImage {
-     
-    background: black;
-    color: white;
-    width: 350px;
-    height: 350px;
+#ballImage {
+    background-image: url("img/empty.png");
+    background-repeat: none;
+    background-size: cover;
+    color: rgb(182, 85, 93);
+    width: 550px;
+    height: 550px;
     margin: auto;
     margin-top: 10px;
     border-radius: 100%;
     display: grid;
     justify-content: center;
     align-items: center;
-    
+    padding:30px;
   }
   
   #answer {
-    font-size: 25px;
+    font-size: 35px;
   }

@@ -10,17 +10,17 @@ let answer = document.querySelector("#answer");
 
 button.addEventListener("click", function() {
   
- let randomNumber = make_RandomNumber (4);
+ let randomNumber = make_RandomNumber (13);
   
   let answerResult = "";
   
   if (randomNumber ==0) {
     
-    textAnswer = "Yes definity!"
+    textAnswer = "Yes!"
   }
   
   else if (randomNumber ==1){
-    textAnswer = "No, certainly not!"
+    textAnswer = "Better not tell you."
   }
   
   else if (randomNumber ==2){
@@ -31,7 +31,40 @@ button.addEventListener("click", function() {
    textAnswer = " Ask later."
  }
   
-  
+ else if (randomNumber ==4){
+  textAnswer = "Damn! I don't know."
+}
+
+else if (randomNumber ==5){
+  textAnswer = "Can't not answer. Leave a message."
+}
+
+else if (randomNumber ==6){
+ textAnswer = " Call Ghostbusters."
+}
+else if (randomNumber ==7){
+  textAnswer = "Great Scott!..no."
+}
+
+else if (randomNumber ==8){
+  textAnswer = "Run."
+}
+
+else if (randomNumber ==9){
+ textAnswer = " Let the bodies hit the floor."
+}
+else if (randomNumber ==10){
+  textAnswer = "Bribe me....okay answer is yes."
+}
+
+else if (randomNumber ==11){
+  textAnswer = "Don't worry. Be happy."
+}
+
+else if (randomNumber ==12){
+ textAnswer = " Um..yes?"
+}
+
   
   answer.innerHTML = textAnswer;
 });
