@@ -36,7 +36,7 @@ button.addEventListener("click", function() {
 }
 
 else if (randomNumber ==5){
-  textAnswer = "Can't not answer. Leave a message."
+  textAnswer = "Call your astrologist."
 }
 
 else if (randomNumber ==6){
@@ -51,10 +51,10 @@ else if (randomNumber ==8){
 }
 
 else if (randomNumber ==9){
- textAnswer = " Let the bodies hit the floor."
+ textAnswer = " Bodies will fall."
 }
 else if (randomNumber ==10){
-  textAnswer = "Bribe me....okay answer is yes."
+  textAnswer = "Bribe me."
 }
 
 else if (randomNumber ==11){
